@@ -4,6 +4,9 @@
 - Go to exercise folder.
 - Run `mvn clean install` to run the tests
 
+Note:
+If using IDE, please import as maven project in IDE
+
 ### US-1: As a customer, I want to be able to change the quantity of an item before adding it to my cart.
 #### Acceptanc Criteria
    - As a customer,
