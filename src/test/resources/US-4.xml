@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="US-1 : User is able to change quantity before adding to cart">
+    <parameter name="appURL" value="https://m.kss.com.au/boxshop/"/>
+    <parameter name="browserType" value="Chrome"/>
+    <test name="Change quantity of item before adding to cart">
+        <classes>
+            <class name="com.exercise.tests.CheckOutTest"/>
+        </classes>
+    </test>
+</suite>
